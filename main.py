@@ -14,7 +14,7 @@ databsae = mongo_db.UrlShortner
 collection = databsae.urls
 
 qr_obj = qr_code()
-base_url = "https://vdpurlshortner.onrender.com"
+base_url = "https://vdpurlshortner.onrender.com/"
 url_obj = urls(collection)
 class addURL(BaseModel):
     special_key : str
